@@ -9,25 +9,25 @@
 </head>
 <body>
     <div class="d-flex basic">
-        <div>
-            <img src="./assets/images/signin.jpeg" alt="" width="800px" class="object-fit-cover ">
+        <div class="w-50">
+            <img src="./assets/images/signin.jpeg" alt="" class="img-fluid h-100">
         </div>
-        <div>
-            <img src="./assets/images/logo.png" alt="logo" width="200px" class="float-end">
-            <div>
+        <div class="w-50 d-flex flex-column">
+            <img src="./assets/images/logo.png" alt="logo" width="175px" class="align-self-end m-5">
+            <div class="align-self-center">
                 <h5>Sign In</h5>
                 <p>If you don’t have an account register</p>
                 <p>You can <a href="#"> Register here !</a></p>
                 <form>
-                    <div>
+                    <div class="d-flex flex-column">
                         <label for="email">Email</label>
                         <input type="email" placeholder="Enter your email address"/>
                     </div>
-                    <div>
+                    <div class="d-flex flex-column">
                         <label for="password">Password</label>
                         <input type="password" placeholder="Enter your Password"/>
                     </div>
-                    <div>
+                    <div class="d-flex">
                         <div>
                             <input type="checkbox"/>
                             <span>Remember Me</span>
@@ -36,14 +36,14 @@
                             <a href="">Forgot Password?</a>
                         </div>
                     </div>
-                    <button>Login</button>
+                    <button class="btn bg-warning w-100 rounded-pill text-white">Login</button>
                 </form>
                 <div>
                     <p>or continue with</p>
                     <div>
-                        <button>google</button>
-                        <button>apple</button>
-                        <button>facebook</button>
+                        <button class="btn"><img src="./assets/images/facebook.svg" alt=""></button>
+                        <button class="btn"><img src="./assets/images/apple.svg" alt=""></button>
+                        <button class="btn"><img src="./assets/images/google.svg" alt=""></button>
                     </div>
                 </div>
             </div>
