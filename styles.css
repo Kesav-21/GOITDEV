@@ -2,3 +2,37 @@
     height: 100vh;
     width:100%;
 }
+
+.h-100vh{
+    height: 100vh;
+}
+.color-orange{
+    color:#F47820;
+}
+.border-orange{
+    border-bottom: 2px solid #F47820!important;
+}
+.bg-orange{
+    background-color: #F47820;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.signin{
+    width: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+    .signin{
+        width: 100%;
+    }
+}
