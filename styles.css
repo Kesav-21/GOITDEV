@@ -31,8 +31,12 @@
     width: 50%;
 }
 
-@media only screen and (max-width: 480px) {
+.bg-sandal{
+    background-color: #FFE6C7;
+}
+
+@media only screen and (max-width: 540px) {
     .signin{
-        width: 100%;
+        width: 90%;
     }
 }
